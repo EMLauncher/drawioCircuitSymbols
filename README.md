@@ -15,6 +15,7 @@ xmlを書くことで使いやすいシンボルを作れる
 1. シンボルを表すxml文を書く
 ※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり
 公式サイト↓
+
 https://www.diagrams.net/doc/faq/shape-complex-create-edit
 
 基本的には以下のような感じ
@@ -35,6 +36,7 @@ https://www.diagrams.net/doc/faq/shape-complex-create-edit
 </shape>
 ```
 ちなみ円弧を描くのが結構めんどくさいので注意↓
+
 https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io
 
 
