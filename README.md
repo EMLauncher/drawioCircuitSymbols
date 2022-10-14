@@ -4,6 +4,7 @@ circuit symbols for Diagram.drawio
 ### 導入の仕方
 1. Diagram.drawioアプリをインストールする
 1. File -> Open Library... から、SuzukiCircuitSymbols.xml を読み込む
+
 以上！
 
 ----xml書ける人向け----
@@ -15,6 +16,7 @@ xmlを書くことで使いやすいシンボルを作れる
 ※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり
 公式サイト↓
 https://www.diagrams.net/doc/faq/shape-complex-create-edit
+
 基本的には以下のような感じ
 ```
 <shape 図形の名前、サイズ可変/不可変などを設定>
@@ -34,6 +36,7 @@ https://www.diagrams.net/doc/faq/shape-complex-create-edit
 ```
 ちなみ円弧を描くのが結構めんどくさいので注意↓
 https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io
+
 
 1. アプリにて、 Arrange -> Insert -> shape... から、xmlから図形を生成するウィンドウが開く
 1. previewで思い通りの図形か確認して、Apply
