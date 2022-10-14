@@ -1,0 +1,32 @@
+<shape name="opamp" h="80" w="80" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.25" perimeter="1" name="NW"/>
+    <constraint x="0" y="0.75" perimeter="1" name="SW"/>
+    <constraint x="1" y="0.5" perimeter="1" name="E"/>
+    <constraint x="0.5" y="0.28125" perimeter="0" name="N"/>
+    <constraint x="0.5" y="0.71875" perimeter="0" name="S"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <path>
+      <move x="0" y="20"/>
+      <line x="10" y="20"/>
+      <move x="0" y="60"/>
+      <line x="10" y="60"/>
+      <move x="10" y="5"/>
+      <line x="10" y="75"/>
+      <line x="70" y="40"/>
+      <close/>
+      <move x="70" y="40"/>
+      <line x="80" y="40"/>
+      <move x="15" y="23"/>
+      <line x="25" y="23"/>
+      <move x="20" y="18"/>
+      <line x="20" y="28"/>
+      <move x="15" y="57"/>
+      <line x="25" y="57"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

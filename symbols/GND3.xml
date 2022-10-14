@@ -1,0 +1,21 @@
+<shape name="GND3" h="40" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <fillstroke/>
+    <path>
+      <move x="0" y="20"/>
+      <line x="40" y="20"/>
+      <move x="7" y="27"/>
+      <line x="33" y="27"/>
+      <move x="14" y="34"/>
+      <line x="26" y="34"/>
+      <move x="20" y="20"/>
+      <line x="20" y="0"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

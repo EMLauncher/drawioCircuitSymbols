@@ -1,0 +1,11 @@
+<shape name="junction3" h="20" w="20" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0.5" perimeter="0" name="N"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <ellipse x="7" y="7" w="6" h="6"/>
+    <fillstroke/>
+  </foreground>
+</shape>

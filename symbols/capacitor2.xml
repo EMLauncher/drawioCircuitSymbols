@@ -1,0 +1,31 @@
+<shape name="capacitor2" h="80" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+    <constraint x="0.5" y="1" perimeter="1" name="S"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <path>
+      <move x="20" y="0"/>
+      <line x="20" y="33"/>
+      <move x="5" y="33"/>
+      <line x="35" y="33"/>
+      <move x="5" y="47"/>
+      <line x="35" y="47"/>
+      <move x="20" y="47"/>
+      <line x="20" y="80"/>
+      <move x="8" y="33"/>
+      <line x="12" y="47"/>
+      <move x="18" y="33"/>
+      <line x="22" y="47"/>
+      <move x="28" y="33"/>
+      <line x="32" y="47"/>
+      <move x="30" y="15"/>
+      <line x="30" y="25"/>
+      <move x="25" y="20"/>
+      <line x="35" y="20"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

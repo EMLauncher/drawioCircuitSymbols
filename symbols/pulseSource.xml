@@ -1,0 +1,23 @@
+<shape name="pulse source" h="40" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+    <constraint x="0.5" y="1" perimeter="1" name="S"/>
+    <constraint x="0" y="0.5" perimeter="1" name="W"/>
+    <constraint x="1" y="0.5" perimeter="1" name="E"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <ellipse x="0" y="0" w="40" h="40"/>
+    <stroke/>
+    <path>
+      <move x="7" y="25"/>
+      <line x="15" y="25"/>
+      <line x="15" y="15"/>
+      <line x="25" y="15"/>
+      <line x="25" y="25"/>
+      <line x="32" y="25"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

@@ -1,0 +1,22 @@
+<shape name="GND2" h="40" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <path>
+      <move x="6" y="25"/>
+      <line x="14" y="40"/>
+      <move x="16" y="25"/>
+      <line x="24" y="40"/>
+      <move x="26" y="25"/>
+      <line x="34" y="40"/>
+      <move x="20" y="25"/>
+      <line x="20" y="0"/>
+    </path>
+    <stroke/>
+    <rect x="0" y="23.5" w="40" h="3"/>
+    <fillstroke/>
+  </foreground>
+</shape>

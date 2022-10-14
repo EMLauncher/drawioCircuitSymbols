@@ -1,0 +1,20 @@
+<shape name="GND1" h="40" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <fillstroke/>
+    <path>
+      <move x="20" y="40"/>
+      <line x="5" y="20"/>
+      <line x="35" y="20"/>
+      <line x="20" y="40"/>
+      <line x="5" y="20"/>
+      <move x="20" y="20"/>
+      <line x="20" y="0"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

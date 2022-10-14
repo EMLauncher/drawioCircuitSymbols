@@ -1,0 +1,25 @@
+<shape name="AND" h="80" w="80" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.25" perimeter="1" name="NW"/>
+    <constraint x="0" y="0.75" perimeter="1" name="SW"/>
+    <constraint x="1" y="0.5" perimeter="1" name="E"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <path>
+      <move x="40" y="10"/>
+      <arc x="40" y="70" rx="30" ry="30" large-arc-flag="0" sweep-flag="1" x-axis-rotation="0"/>
+      <line x="10" y="70"/>
+      <line x="10" y="10"/>
+      <close/>
+      <move x="70" y="40"/>
+      <line x="80" y="40"/>
+      <move x="0" y="20"/>
+      <line x="10" y="20"/>
+      <move x="0" y="60"/>
+      <line x="10" y="60"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

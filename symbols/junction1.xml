@@ -1,0 +1,20 @@
+<shape name="junction1" h="40" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+    <constraint x="0.5" y="1" perimeter="1" name="S"/>
+    <constraint x="0" y="0.5" perimeter="1" name="W"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <path>
+      <move x="20" y="0"/>
+      <line x="20" y="40"/>
+      <move x="20" y="20"/>
+      <line x="0" y="20"/>
+    </path>
+    <stroke/>
+    <ellipse x="17" y="17" w="6" h="6"/>
+    <fillstroke/>
+  </foreground>
+</shape>

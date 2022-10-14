@@ -1,0 +1,20 @@
+<shape name="Vcc2" h="40" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="1" perimeter="1" name="S"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <fillstroke/>
+    <ellipse x="10" y="0" w="20" h="20"/>
+    <stroke/>
+    <fillstroke/>
+    <path>
+      <move x="0" y="10"/>
+      <line x="40" y="10"/>
+      <move x="20" y="10"/>
+      <line x="20" y="40"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

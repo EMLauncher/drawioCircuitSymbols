@@ -1,0 +1,30 @@
+<shape name="3Phi AC power" h="40" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+    <constraint x="0.5" y="1" perimeter="1" name="S"/>
+    <constraint x="0" y="0.5" perimeter="1" name="W"/>
+    <constraint x="1" y="0.5" perimeter="1" name="E"/>
+    <constraint x="0.8535534" y="0.1464466" perimeter="0" name="NE"/>
+    <constraint x="0.8535534" y="0.8535534" perimeter="0" name="SE"/>
+    <constraint x="0.1464466" y="0.1464466" perimeter="0" name="NW"/>
+    <constraint x="0.1464466" y="0.8535534" perimeter="0" name="SW"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <ellipse x="0" y="0" w="40" h="40"/>
+    <stroke/>
+    <path>
+      <move x="5" y="15"/>
+      <curve x1="10" y1="10" x2="15" y2="10" x3="20" y3="15"/>
+      <curve x1="25" y1="20" x2="30" y2="20" x3="35" y3="15"/>
+      <move x="5" y="20"/>
+      <curve x1="10" y1="15" x2="15" y2="15" x3="20" y3="20"/>
+      <curve x1="25" y1="25" x2="30" y2="25" x3="35" y3="20"/>
+      <move x="5" y="25"/>
+      <curve x1="10" y1="20" x2="15" y2="20" x3="20" y3="25"/>
+      <curve x1="25" y1="30" x2="30" y2="30" x3="35" y3="25"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

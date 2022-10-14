@@ -1,0 +1,26 @@
+<shape name="current source" h="40" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+    <constraint x="0.5" y="1" perimeter="1" name="S"/>
+    <constraint x="0" y="0.5" perimeter="1" name="W"/>
+    <constraint x="1" y="0.5" perimeter="1" name="E"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <ellipse x="0" y="0" w="40" h="40"/>
+    <stroke/>
+    <path>
+      <move x="20" y="11"/>
+      <line x="20" y="30"/>
+    </path>
+    <stroke/>
+    <path>
+      <move x="20" y="10"/>
+      <line x="17" y="15"/>
+      <line x="23" y="15"/>
+      <close/>
+    </path>
+    <fillstroke/>
+  </foreground>
+</shape>

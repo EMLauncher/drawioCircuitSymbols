@@ -1,0 +1,23 @@
+<shape name="resistor1" h="80" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+    <constraint x="0.5" y="1" perimeter="1" name="S"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <path>
+      <move x="20" y="0"/>
+      <line x="20" y="10"/>
+      <line x="5" y="15"/>
+      <line x="35" y="25"/>
+      <line x="5" y="35"/>
+      <line x="35" y="45"/>
+      <line x="5" y="55"/>
+      <line x="35" y="65"/>
+      <line x="20" y="70"/>
+      <line x="20" y="80"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

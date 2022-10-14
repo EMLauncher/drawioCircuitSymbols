@@ -1,0 +1,20 @@
+<shape name="inductor1" h="80" w="40" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0.5" y="0" perimeter="1" name="N"/>
+    <constraint x="0.5" y="1" perimeter="1" name="S"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <path>
+      <move x="20" y="0"/>
+      <line x="20" y="10"/>
+      <curve x1="35" y1="15" x2="35" y2="25" x3="20" y3="30"/>
+      <curve x1="35" y1="35" x2="35" y2="45" x3="20" y3="50"/>
+      <curve x1="35" y1="55" x2="35" y2="65" x3="20" y3="70"/>
+      <move x="20" y="70"/>
+      <line x="20" y="80"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>

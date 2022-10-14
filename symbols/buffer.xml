@@ -1,0 +1,21 @@
+<shape name="buffer" h="80" w="80" aspect="variable" strokewidth="inherit">
+  <connections>
+    <constraint x="0" y="0.5" perimeter="1" name="W"/>
+    <constraint x="1" y="0.5" perimeter="1" name="E"/>
+  </connections>
+  <background>
+  </background>
+  <foreground>
+    <path>
+      <move x="0" y="40"/>
+      <line x="10" y="40"/>
+      <move x="10" y="20"/>
+      <line x="10" y="60"/>
+      <line x="50" y="40"/>
+      <close/>
+      <move x="50" y="40"/>
+      <line x="80" y="40"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>
