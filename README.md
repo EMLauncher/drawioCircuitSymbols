@@ -13,33 +13,33 @@ circuit symbols for Diagram.drawio
 xmlを書くことで使いやすいシンボルを作れる
 
 1. シンボルを表すxml文を書く
-※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり
-公式サイト↓
-
-https://www.diagrams.net/doc/faq/shape-complex-create-edit
-
-基本的には以下のような感じ
-```
-<shape 図形の名前、サイズ可変/不可変などを設定>
-  <connections>
-    スナップしてほしいポイントを設定
-    ここだけx,yはサイズに対する割合なので注意
-  </connections>
-  <background>
-    背景の塗りつぶしなどを記載
-    回路図記号で使う場面は少ないと思う
-  </background>
-  <foreground>
-    各種図形を描写
-　　円は<ellipse 座標/>、など
-  </foreground>
-</shape>
-```
-ちなみ円弧を描くのが結構めんどくさいので注意↓
-
-https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io
-
-
+  ※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり
+  公式サイト↓
+  
+  https://www.diagrams.net/doc/faq/shape-complex-create-edit
+  
+  基本的には以下のような感じ
+  ```
+  <shape 図形の名前、サイズ可変/不可変などを設定>
+    <connections>
+      スナップしてほしいポイントを設定
+      ここだけx,yはサイズに対する割合なので注意
+    </connections>
+    <background>
+      背景の塗りつぶしなどを記載
+      回路図記号で使う場面は少ないと思う
+    </background>
+    <foreground>
+      各種図形を描写
+  　　円は<ellipse 座標/>、など
+    </foreground>
+  </shape>
+  ```
+  ちなみ円弧を描くのが結構めんどくさいので注意↓
+  
+  https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io
+  
+  
 1. アプリにて、 Arrange -> Insert -> shape... から、xmlから図形を生成するウィンドウが開く
 1. previewで思い通りの図形か確認して、Apply
 1. 図形が出てくるので、好きなサイズに変更して、ライブラリにドラッグ&ドロップ
