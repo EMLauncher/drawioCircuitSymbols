@@ -17,7 +17,22 @@ xmlを書くことで使いやすいシンボルを作れる
 公式サイト↓<br/>
 https://www.diagrams.net/doc/faq/shape-complex-create-edit<br/>
 基本的には以下のような感じ<br/>
-```a```<br/>
+```
+<shape 図形の名前、サイズ可変/不可変などを設定>
+  <connections>
+    スナップしてほしいポイントを設定
+    ここだけx,yはサイズに対する割合なので注意
+  </connections>
+  <background>
+    背景の塗りつぶしなどを記載
+    回路図記号で使う場面は少ないと思う
+  </background>
+  <foreground>
+    各種図形を描写
+　　円は<ellipse 座標/>、など
+  </foreground>
+</shape>
+```<br/>
 ちなみに円弧を描くのが結構めんどくさいので注意↓<br/>
 https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io<br/>
   
