@@ -17,7 +17,8 @@ xmlを書くことで使いやすいシンボルを作れる
 公式サイト↓<br/>
 https://www.diagrams.net/doc/faq/shape-complex-create-edit<br/>
 基本的には以下のような感じ<br/>
-```a```ちなみに円弧を描くのが結構めんどくさいので注意↓<br/>
+```a```<br/>
+ちなみに円弧を描くのが結構めんどくさいので注意↓<br/>
 https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io<br/>
   
   
@@ -28,5 +29,5 @@ https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-dra
 1. exportで出力(saveではない)、この際上書き保存ではなく、別の場所に出力すること(なんかバグでフリーズする)
 1. 出力した SuzukiCircuitSymbols.xml を古い方があるフォルダに移動して上書き
 
-自分は電源等はw=40,h=40 抵抗などはw=40,h=80 トランジスタとかはw=80,h=80のサイズで統一
+自分は電源等はw=40,h=40 抵抗などはw=40,h=80 トランジスタとかはw=80,h=80のサイズで統一<br/>
 スナップは一部を除き25%刻みのキリのいい場所にしか置かないようにしている
