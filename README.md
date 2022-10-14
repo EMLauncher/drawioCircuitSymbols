@@ -18,7 +18,7 @@ xmlを書くことで使いやすいシンボルを作れる
 https://www.diagrams.net/doc/faq/shape-complex-create-edit<br/>
 基本的には以下のような感じ<br/>
 ```a
-a```<br/>
+```<br/>
 ちなみに円弧を描くのが結構めんどくさいので注意↓<br/>
 https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io<br/>
   
