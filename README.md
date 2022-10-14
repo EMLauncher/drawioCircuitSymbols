@@ -7,6 +7,7 @@ circuit symbols for Diagram.drawio
 
 以上！
 
+
 ----xml書ける人向け----
 ### シンボル追加の手順
 シンボルは自分で適当に描いたものだとスナップできなかったり、回転できなかったりと使い勝手が非常に悪い
@@ -21,9 +22,28 @@ xmlを書くことで使いやすいシンボルを作れる
 1. exportで出力(saveではない)、この際上書き保存ではなく、別の場所に出力すること(なんかバグでフリーズする)
 1. 出力した SuzukiCircuitSymbols.xml を古い方があるフォルダに移動して上書き
 
-xmlのフォーマットはおよそ以下の通り
+xmlは独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり
+
+公式サイト↓
+
+https://www.diagrams.net/doc/faq/shape-complex-create-edit
+
+基本的には以下のような感じ
 ~~~
-a
+<shape 図形の名前、サイズ可変/不可変などを設定>
+  <connections>
+    スナップしてほしいポイントを設定
+    ここだけx,yはサイズに対する割合なので注意
+  </connections>
+  <background>
+    背景の塗りつぶしなどを記載
+    回路図記号で使う場面は少ないと思う
+  </background>
+  <foreground>
+    各種図形を描写
+　　円は<ellipse 座標/>、など
+  </foreground>
+</shape>
 ~~~
 
 ちなみに円弧を描くのが結構めんどくさいので注意↓
