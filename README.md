@@ -13,10 +13,9 @@ circuit symbols for Diagram.drawio
 xmlを書くことで使いやすいシンボルを作れる
 
 1. シンボルを表すxml文を書く
-  ※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり
-  公式サイト↓
-  
-  https://www.diagrams.net/doc/faq/shape-complex-create-edit
+※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり
+公式サイト↓
+https://www.diagrams.net/doc/faq/shape-complex-create-edit
   
   基本的には以下のような感じ
   ```
