@@ -15,12 +15,11 @@ xmlを書くことで使いやすいシンボルを作れる
 1. シンボルを表すxml文を書く<br/>
 ※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり<br/>
 公式サイト↓<br/>
-https://www.diagrams.net/doc/faq/shape-complex-create-edit
-<br/>
+https://www.diagrams.net/doc/faq/shape-complex-create-edit<br/>
 基本的には以下のような感じ<br/>
-  ```
-  <shape 図形の名前、サイズ可変/不可変などを設定>
-    <connections>
+```
+<shape 図形の名前、サイズ可変/不可変などを設定>
+<connections>
       スナップしてほしいポイントを設定
       ここだけx,yはサイズに対する割合なので注意
     </connections>
