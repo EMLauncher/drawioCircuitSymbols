@@ -13,12 +13,12 @@ circuit symbols for Diagram.drawio
 xmlを書くことで使いやすいシンボルを作れる
 
 1. シンボルを表すxml文を書く<br/>
-※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり<br/>
-公式サイト↓<br/>
-https://www.diagrams.net/doc/faq/shape-complex-create-edit<br/>
-ちなみに円弧を描くのが結構めんどくさいので注意↓<br/>
-https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io<br/>
-基本的には以下のような感じ
+  ※独自仕様のため、検索したりすでにあるものからフォーマットを読む必要あり<br/>
+  公式サイト↓<br/>
+  https://www.diagrams.net/doc/faq/shape-complex-create-edit<br/>
+  ちなみに円弧を描くのが結構めんどくさいので注意↓<br/>
+  https://qastack.jp/webapps/70519/how-do-i-add-a-curve-or-arc-to-a-diagram-on-draw-io<br/>
+  基本的には以下のような感じ
   ~~~
   ~~~
 1. アプリにて、 Arrange -> Insert -> shape... から、xmlから図形を生成するウィンドウが開く
