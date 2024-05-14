@@ -259,6 +259,20 @@
     "title": "opt-coupler"
   },
   {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(rVXBcoMgEP0arg5KifbYsemt6SGHnomhlQmCAyZp/74oOgkxUqPOOOPwnry3uywrQKnOSUlBBAUpKECvIIrE+8c2NG8D5hZJoF2e3SXRJc0qi52IYmTHqWV0peSBntm+ahWYyKliVc2iNYAv5pv6QWkmhTAiTArtMFe8ESNMmL3wx4rBIMbW57cF7Ko0FgWtqLJom8MlsY0FQPQ23SocZ7WdYOWmFOBxTp/3nVBqkKHionRHssO3kkex7+8a5L6koneIji5Jfdo9oqMLeaJD2T5BX706Bc7ElcIkCTeIG4lwfhTxhCjQTRT48ShWi0vMz2M1P4gFJBJvIk2/D/StGY3NFPNsVvX4u7RCErizAjtTEzkj1d8o5q4xzv/1f+jGLVBb7Erg59kScThGIuNS++rgO0RvIZutvbHWoPa/2AB/);whiteSpace=wrap;html=1;fillColor=#000000;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "nMOS1"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(rVXBcoMgEP0arg5IjPbYse2t7SGHnomhlYmCAzRp/74oOgkxUiOZccbhPXlvd1lWgHNVkoaCGHJSU4CfQBw3r+8bZN4GLC2SQbs8ukuiGlpoix2IZGRbUcsoLcWeHtlO9wqMl1Qy3bL4GcBH80374LwQnBsRJrhymDPeiBHGzV74Y8VglCbW57cH7KoxFjXVVFq0z+GU2JsFQPyy3ArNs9ossHJTipJ5Th/XnXBukKni4nxLiv2XFN98N941yX0KSa8QA92Q9rRHxEDX4kCnsl1BX70GhYrxM4VFEm4QFxIoPIp0QRT4Iork9ijWd5cIz2MdHsQdJDJvIl2/T/StGY3dFPNslu34O7VCFrmzInGmJnZGqr9RzF1jVfWv/003DqPg2q5cieQhWCJFcySKSihfHXyH6C1kt3U01jrU/hc74A8=);whiteSpace=wrap;html=1;fillColor=#000000;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "pMOS1"
+  },
+  {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(vVXbcoIwEP2avHZCUh1fW6u/0OeAS8kICZPES//eNcEKahjKKDM8sCc55+xuboQvbSFqIIwqUQHhX4SxdJfnYPAH0SJACxrCQzcUtobMBWwvjBRpCWHEOqO3cJAb1yhIVYCR7jzKV4R+4Bz/zQnjR0H4ZwP8jfBlppVCeamV7XIeM2/4LRVMRkiF3vQYkmnS/22it1mIa8ywAoe1ezwJ6LUx3x5YPzmZZFwyq+HJtHqKjGhbe2ipyLY/Ru/U5v9+MW4PK9cGhttFel2L8967p/eJPJS6CFZ6D7E99E7jyzHasJSqZZhM4Ngt8caRTV7j/PWOswm6mpXawmuXaooyuo1bPMfx7tiiRuzkDlQIb8+ouzF28VxZiPmZ4dn0k04=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 80,
     "h": 80,
